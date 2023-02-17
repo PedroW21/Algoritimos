@@ -1,5 +1,6 @@
 function pesquisaSimples(lista, item) {
 
+
   let i = 0;
   let itemEncontrado = false;
 
@@ -37,4 +38,6 @@ const lista = [
 ];
 
 //0.08 - 0.116
-console.log(pesquisaSimples(lista, 269));
+pesquisaSimples(lista, 269)
+
+
